@@ -1,0 +1,71 @@
+<?xml version ="1.0" ?>
+
+<ships>
+	<RobotFighter>
+	<characteristics
+
+	      max_health="100"
+	      max_shield="40"
+	      max_energy="12500"
+
+	      recharge="30"
+
+	      shield_efficiency="10"
+	      weapon_efficiency="10"
+	      engine_efficiency="10"
+
+	      maneuverability = "10"
+	      max_speed = "20"
+
+	      scale = "0.05"
+	      box_height = "0.01"
+	      box_width = "0.03"
+	      box_length = "0.05"/>
+    </RobotFighter>
+
+	<HumanFighter>
+	<characteristics
+
+	      max_health="200"
+	      max_shield="70"
+	      max_energy="10000"
+
+	      recharge="30"
+
+	      shield_efficiency="12"
+	      weapon_efficiency="8"
+	      engine_efficiency="8"
+
+	      maneuverability = "8"
+	      max_speed = "25"
+
+	      scale = "0.05"
+	      box_height = "0.01"
+	      box_width = "0.03"
+	      box_length = "0.05"/>
+    </HumanFighter>
+    
+    <ProtoNelFighter>
+	<characteristics
+
+	      max_health="100"
+	      max_shield="40"
+	      max_energy="8000"
+
+	      recharge="30"
+
+	      shield_efficiency="5"
+	      weapon_efficiency="12"
+	      engine_efficiency="8"
+
+	      maneuverability = "10"
+	      max_speed = "20"
+
+	      scale = "0.075"
+	      box_height = "0.015"
+	      box_width = "0.045"
+	      box_length = "0.075"/>
+    </ProtoNelFighter>
+
+</ships>
+

@@ -1,0 +1,151 @@
+<?xml version ="1.0" ?>
+<level>
+	<!-- Asteroids are defined here. Asteroids are given X , Z , Y coordinates. This is pretty straightforward. -->
+	<!-- Each asteroid can get any kind of name. Game ignores the names given to asteroids                      -->
+
+	<player ship="humanfighter" posX     = "0.0" posY     = "0.0" posZ     = "-0.5" forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0" upX = "0.0" upY = "1.0" upZ = "0.0" speed = "0.009" team = "2" /> 
+
+        <!-- Asteroids are defined here. Asteroids are given X , Z , Y coordinates. This is pretty straightforward. -->
+	<!-- Each asteroid can get any kind of name. Game ignores the names given to asteroids                      -->
+	<asteroids>
+		<Asteroid posX = "2.0" posY = "3.0" posZ = "4.0" />
+	</asteroids>
+
+	<!-- RobotFighter ships should be defined here. RobotFighters are given X, Z, Y coordinates -->
+	<!-- for the position , forward and up vectors.Speed and team number should be given as well      -->
+
+	<robotfighters>
+
+		<Asteroid posX="3.0" posY=" 0.3" posZ="0.25"
+			  forwardX = "-1.0" forwardY = "0.0" forwardZ = "0.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.005"
+	                  team = "3"
+		/>
+		<Asteroid posX="3.0" posY=" 0.3" posZ="0.41"
+			  forwardX = "-1.0" forwardY = "0.0" forwardZ = "0.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.005"
+	                  team = "3"
+
+		/>
+
+		<Asteroid posX="3.0" posY="0.3" posZ="0.55"
+			  forwardX = "-1.0" forwardY = "0.0" forwardZ = "0.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.005"
+	                  team = "3"
+
+		/>
+		<Asteroid posX="3.0" posY="0.3" posZ="0.66"
+			  forwardX = "-1.0" forwardY = "0.0" forwardZ = "0.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.005"
+	                  team = "3"
+
+		/>
+
+	</robotfighters>
+
+	<!-- HumanFighterShips should be defined here.HumanFighterShips are given X, Z, Y coordinates -->
+	<!-- for the position , forward and up vectors.Speed and team number should be given as well      -->
+
+	<humanfighters>
+
+		<Asteroid posX="0.0" posY=" 0.0" posZ="0.3"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.0012"
+	                  team = "2"
+		/>
+		<Asteroid posX="0.0" posY=" 0.00" posZ="0.38"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.0012"
+	                  team = "2"
+
+		/>
+
+		<Asteroid posX="0.0" posY=" 0.0" posZ="0.46"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.0012"
+	                  team = "2"
+
+		/>
+		<Asteroid posX="0.0" posY="0.00" posZ="0.54"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.0012"
+	                  team = "2"
+
+		/>
+
+	</humanfighters>
+
+	<!-- ProtoNelFighter ships should be defined here. ProtoNelFighters are given X, Z, Y coordinates -->
+	<!-- for the position , forward and up vectors.Speed and team number should be given as well      -->
+
+	<protonelfighters>
+	
+		<Asteroid posX="1.5" posY="0.5" posZ="1.0"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.002"
+	                  team = "1"
+		/>
+		<Asteroid posX="2.5" posY="1.0" posZ="1.0"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.002"
+	                  team = "1"
+
+		/>
+
+		<Asteroid posX="0.5" posY="1.5" posZ="1.0"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.002"
+	                  team = "1"
+
+		/>
+		<Asteroid posX="1.5" posY=" 2.00" posZ="1.0"
+			  forwardX = "0.0" forwardY = "0.0" forwardZ = "1.0"
+			  upX = "0.0" upY = "1.0" upZ = "0.0"
+		          speed = "0.002"
+	                  team = "1"
+
+		/>
+
+
+	</protonelfighters>
+	<mars> 
+		<planet posX = "2.0" posY = "3.0" posZ = "4.0" />
+	</mars>
+	
+	<pluto> 
+		<planet posX = "2.0" posY = "3.0" posZ = "-4.0" />
+	</pluto>
+
+	<neptune>
+ 		<planet posX ="-2.0" posY ="3.0" posZ = "4.0" />
+	</neptune>
+
+	<uranus>
+		<planet posX ="2.0" posY = "-3.0" posZ = "4.0" /> 
+	</uranus>
+
+	<mercury> 
+		<planet posX="2.0" posY = "-3.0" posZ = "-4.0" />
+	</mercury>
+
+	<venus> 
+		<planet posX="0.0" posY = "0.0" posZ ="-0.9" />
+		<planet posX="0.0" posY = "0.0" posZ ="-1.5" />
+	</venus>
+	
+	<bodies>
+	</bodies>		
+</level>
+
+
